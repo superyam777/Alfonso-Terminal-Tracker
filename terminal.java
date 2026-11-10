@@ -22,9 +22,6 @@ public class terminal {
             System.out.println("\n[DISPATCHER] Vehicle loaded into bay:");
             currentVehicle.printDetails();
 
-            // Simulate clock ticks / countdown loop
-            // (Assuming we add a getter/setter for remaining time if needed, or simulate
-            // the loop)
             System.out.println("[DISPATCHER] Processing departure...");
 
             currentVehicle.setState("TERMINATED");
